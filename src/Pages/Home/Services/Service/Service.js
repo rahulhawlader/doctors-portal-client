@@ -9,9 +9,7 @@ const Service = ({ service }) => {
             <div class="card-body items-center text-center">
                 <h2 class="card-title">{service.name}</h2>
                 <p>{service.Description}</p>
-                <div class="card-actions">
-                    <button class="btn btn-primary bg-gradient-to-r from-secondary to-primary">Buy Now</button>
-                </div>
+
             </div>
         </div>
     );
